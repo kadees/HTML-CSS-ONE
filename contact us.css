@@ -1,0 +1,191 @@
+nav{
+	background:#594848;
+	width:100%;
+	overflow:auto;
+	height:64px;
+	position:fixed;
+	top:0px;
+	box-shadow: 2px 2px 2px 2px rgba(10,10,10,0.5);
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+li{
+	float:left;
+}
+li:hover {
+	border-bottom: 4px solid black;
+}
+nav a{
+	width:120px;
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	background:#594848;
+	font-size:17px;
+	color:white;
+	padding:20px 10px;
+	font-family:arial;
+	font-weight: bold;
+}
+nav a:hover{
+	color:black;
+}
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: #333;
+    background-size: cover;
+	font-family: sans-serif;
+	
+}
+.mar {
+	margin-top:80px;
+}
+.container{
+	padding: 20px 40px 40px;
+	width:50%;
+	margin:auto 20% 5%;
+	padding:5px auto;
+	height:auto;
+	background:#f2f2f2;
+	overflow:auto;
+	box-shadow: 10px 10px 10px 10px rgba(10,10,10,0.5);
+	transition: 0.4s ease;
+	border-radius:70px;
+}
+.title{
+	margin-top: 30px;
+	color:#fff;
+	transition: 0.4s ease;
+}
+.title h1{
+	font-size: 40px;
+	line-height: 10px;
+	font-family:times new roman;
+	
+}
+
+.title h2{
+	font-size: 20px;
+	font-weight:normal;
+}
+.title h1, h2 {
+	color:black;
+	
+}
+form{
+margin-top:50px;	
+}
+
+.form-control{
+	width: 600px;
+	background: transparent;
+	border:none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color:#990;
+	font-size: 18px;
+	margin-bottom: 16px;
+	font-family:sans-serif;
+}
+.form-control:hover{
+	background-color: rgba(0,0,0,0.1);
+	transition: 0.4s ease;
+	border-radius: 8px;
+}
+
+input{
+	height: 45px;
+	
+}
+
+.fs{
+	background-color: gold;
+	border:none;
+	color:white;
+	font-size: 20px;	
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+	border-radius: 8px;
+	transition: 0.4s ease;
+	box-shadow:4px 4px 4px 4px rgba(0,0,0,0.1);
+}
+
+.fs:hover {
+	background-color:yellow;
+	color: black;
+	box-shadow:4px 4px 4px 4px rgba(0,0,0,0.5);
+}
+
+
+
+
+.btn{
+	background-color: gold;
+	padding: 1rem;
+	border:none;
+	border-radius: 8px;
+	margin-left:45%
+}
+
+
+form  .submit:hover{
+	color:coral;
+}
+.contact_us {
+	color: black;
+	border-bottom: 4px solid black;
+	
+}
+
+footer {
+	background:#594848;
+	width:100%;
+	padding:20px 0px;
+	bottom:0px;
+	height:100%;
+	box-shadow:15px 15px 15px 15px #000;
+}
+.fp {
+	color:#fff;
+	font-weight:bold;
+	text-align:left;
+	margin:5px;
+	display:inline;
+	
+}
+.fa {
+	
+}
+.fimg {
+	width:50px;
+	margin: auto 20px;
+	
+}
+.ful {
+	text-align:center;
+	margin:10px;
+	float:center;
+}
+.fli {
+	color:gold;
+	font-weight:bold;
+	margin:20px;
+	
+	
+	
+}
+.fp2 {
+	color:#fff;
+	font-weight:bold;
+	text-align:left;
+	margin:15px;
+	display:inline;
+	
+	
+}
